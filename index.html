@@ -1,0 +1,66 @@
+<html>
+<head>
+<title>
+Dream icons
+</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/buzz/1.2.1/buzz.min.js"></script>
+</head>
+
+<body style="background-color: rgb(132, 157, 210);"> 
+
+<!--
+
+   <h1>
+      This is the main heading!
+   </h1>
+
+   <h2>
+    text
+   </h2>
+
+   <p>
+      heres a sentence!
+   </p>
+    
+   <p>
+      Heres another sentence..<br>that continues on the next line!
+   </p>
+
+-->
+
+<img id=clock src="img/Asset 1.png" width="200" height="200"/>
+<img id=lamp src="img/Asset 2.png" width="200" height="200"/>
+<img id=sheep src="img/Asset 3.png" width="200" height="200"/>
+<img id=teddy src="img/Asset 5.png" width="200" height="200"/>
+<img id=star src="img/Asset 6.png" width="200" height="200"/>
+<img id=cloud src="img/Asset 8.png" width="200" height="200"/>
+<img id=pillow src="img/Layer 1 (2).png" width="200" height="200"/>
+<img id=moon src="img/Layer 1.png" width="200" height="200"/>
+<img id=tea src="img/Asset 9.png" width="200" height="200"/>
+
+<script>
+   var sound1 =new buzz.sound("sound/clock.mp3");
+   var sound2 =new buzz.sound("sound/lamp.mp3");
+   var sound3 =new buzz.sound("sound/sheep.mp3");
+   var sound4 =new buzz.sound("sound/teddy.mp3");
+   var sound5 =new buzz.sound("sound/star.mp3");
+   var sound6 =new buzz.sound("sound/cloud.mp3");
+   var sound7 =new buzz.sound("sound/pillow.mp3");
+   var sound8 =new buzz.sound("sound/moon.mp3");
+   var sound9 =new buzz.sound("sound/tea.mp3");
+
+window.onload = function() {
+  document.getElementById('clock').addEventListener('mouseover', function () {sound1.play();});
+  document.getElementById('lamp').addEventListener('mouseover', function () {sound2.play();});
+  document.getElementById('sheep').addEventListener('mouseover', function () {sound3.play();});
+  document.getElementById('teddy').addEventListener('mouseover', function () {sound4.play();});
+  document.getElementById('star').addEventListener('mouseover', function () {sound5.play();});
+  document.getElementById('cloud').addEventListener('mouseover', function () {sound6.play();});
+  document.getElementById('pillow').addEventListener('mouseover', function () {sound7.play();});
+  document.getElementById('moon').addEventListener('mouseover', function () {sound8.play();});
+  document.getElementById('tea').addEventListener('mouseover', function () {sound9.play();});
+};
+</script>
+
+</body>
+</html>
